@@ -1,0 +1,158 @@
+.Ourproduct__title {
+    margin-top: 137px;
+    margin-bottom: 64px;
+    text-align: center;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+}
+
+.Ourproduct__list {
+
+
+    width: 867px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+}
+
+.Ourproduct__item {
+    list-style-type: none;
+}
+
+.Ourproduct__link {
+    text-decoration: none;
+    color: #000000;
+    opacity: 0.6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    border-bottom: 3px solid #Fff;
+}
+
+.Ourproduct__link:hover {
+    opacity: initial;
+    border-bottom: 1px solid #D64374;
+}
+
+.Ourproduct__wrapper {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.Ourproduct__end--title {
+    margin: 0px;
+    margin-bottom: 11px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.Ourproduct__end--text {
+    width: 454px;
+    margin: 0px;
+    margin-bottom: 28px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.Ourproduct__end--price--sum {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.Ourproduct__end--price--sub {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+
+.Ourproduct__wrapper:last-child {
+    padding-top: 112px;
+}
+
+
+.Ourproduct__wrapper:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    padding-top: 0px;
+}
+
+
+.Ourproduct__wrapper--leftside--wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.Ourproduct__wrapper--leftside--name {
+    margin: 0px;
+    margin-left: 21px;
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.Ourproduct__wrapper--leftside-country {
+    margin: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 21px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.Ourproduct__wrapper--leftside--text{
+    width: 322px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 39px;
+}
+
+.Ourproduct__wrapper--leftside--images--img{
+    margin-left: 27px;
+}
+.Ourproduct__wrapper--leftside--images--img:nth-child(4){
+    margin-right: 27px;
+}

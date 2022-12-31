@@ -1,0 +1,88 @@
+.services__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100.2px;
+}
+
+.services__card {
+    width: 250px;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 27px;
+    background-color: #ffffff;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+}
+.services__card:hover{
+    background-color: #ede7e7;
+}
+.services__card:active{
+    background-color: rgb(247, 148, 9);
+    color: rgb(230, 241, 4);
+    transition: all 0.3s;
+}
+
+.services__card--title {
+    padding-top: 101px;
+    
+    margin: 0 auto;
+    margin-bottom: 9px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    position: relative;
+}
+
+.services__card--title::before {
+    width: 51px;
+    height: 43.35px;
+    content: url('../../images/services-car.png');
+    position: absolute;
+    top: 33px;
+    left: 99px;
+}
+
+.coffee::before {
+    width: 32px;
+    height: 42.01px;
+    content: url('../../images/services-coffee.png');
+    position: absolute;
+    top: 33px;
+    left: 99px;
+}
+
+.cash-back::before {
+    width: 44px;
+    height: 44px;
+    content: url('../../images/services-cash-back.png');
+    position: absolute;
+    top: 33px;
+    left: 99px;
+}
+
+.cash::before {
+    width: 54px;
+    height: 54px;
+    content: url('../../images/services-fast-delivery.png');
+    position: absolute;
+    top: 33px;
+    left: 99px;
+}
+
+.services__card--text {
+    margin: 0px;
+    padding: 0px 26px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}

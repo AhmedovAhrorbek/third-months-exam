@@ -1,5 +1,23 @@
-.button {
-    padding: 0;
+.button{
     margin: 0;
+    padding: 14px 50px 13px 50px;
     text-decoration: none;
+    background-color:var(--button-bg-color);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+.button:hover{
+    color:var(--button-bg-color) ;
+    background-color: #fff;
+}
+.button:active{
+    background-color: rgb(204, 238, 156);
+    color: rgb(91, 16, 16);
 }

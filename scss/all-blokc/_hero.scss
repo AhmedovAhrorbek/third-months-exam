@@ -1,0 +1,61 @@
+.site-hero{
+    padding-bottom: 213px;
+}
+.site-hero__start--subtitle {
+    
+    margin-top: 192px;
+    margin-bottom: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+
+.site-hero__start--title {
+    width: 665px;
+    margin: 0px;
+    margin-bottom: 35px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+}
+
+.hero-title__changecolor{
+    color:var(--button-bg-color);
+}
+
+.site-hero__start--text {
+    width: 523px;
+
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+}
+
+.site-hero__start--btn{
+    margin-top: 50px;
+}
+
+.site-hero__end{
+    width: 797px;
+    top: 0;
+    right: calc(50% - 750px);
+    position: absolute;
+    height: 697px;
+    margin-bottom: 104px;
+    margin-top: 126px;
+    background-image: url(../../images/hero-milk.png), url(../../images/hero-ice-cream.png), url(../../images/hero-Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: -50px 130px, top center, bottom center;
+}

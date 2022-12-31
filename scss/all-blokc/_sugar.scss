@@ -1,0 +1,42 @@
+.site-sugar{
+    background-color: #F8EDF0;
+}
+.site-sugar__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.site-sugar__start--title{
+    width: 349px;
+    
+    margin-bottom: 16px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+     color: #150101;
+}
+
+.site-sugar__start--text{
+    width: 442px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin-bottom: 35px;
+}
+.site-sugar__end{
+    position: relative;
+}
+.site-sugar__end::after{
+   content: url('../../images/sugar-ellips.png');
+   width: 283px;
+   height: 27.07px;
+   position: absolute;
+   bottom:120px;
+   right: 199px;
+}
